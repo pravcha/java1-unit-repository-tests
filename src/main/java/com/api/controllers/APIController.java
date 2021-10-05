@@ -23,7 +23,7 @@ public class APIController {
 	
    @GetMapping("/greet")
    public String greet() {
-      return "Spring boot is working";
+      return "Spring boot is working fine";
    }
    
    @GetMapping("/static-people")
